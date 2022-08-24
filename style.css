@@ -31,3 +31,12 @@ footer {
   width:150px;
   border-radius:50px;
  }
+
+ .social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
