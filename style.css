@@ -12,10 +12,6 @@ body {
     text-align: center;
 }
 
-.foto {
-  text-align: center;
-}
-
 footer {
   /* Позиционируем footer внизу main */
   position: absolute;
@@ -29,7 +25,8 @@ footer {
 .border {
   border: 3px solid #747576;
   width:150px;
-  border-radius: 50%!important;
+  border-radius: 30%!important;
+  text-align: center;
  }
 
  .social-icons {
