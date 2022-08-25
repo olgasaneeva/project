@@ -29,7 +29,7 @@ footer {
 .border {
   border: 3px solid #747576;
   width:150px;
-  border-radius:50px;
+  border-radius: 50%!important;
  }
 
  .social-icons {
