@@ -25,10 +25,18 @@ footer {
   /*background: black;*/
 }
 
-.vk, .Telegram, .skype, .github {
+.vk, .Telegram, .skype {
   display: block;
-  max: width 15px;
+  max-width:15px;
   max-height:15px;
+  width: auto;
+  height: auto;
+}
+
+.github{
+  display: block;
+  max-width:40px;
+  max-height:40px;
   width: auto;
   height: auto;
 }
@@ -42,7 +50,7 @@ footer {
 .border{
   border: 3px solid #747576;
   max-width: 100%;
-    height: auto;
+   height: auto;
   border-radius: 100px/*!important*/;
   }
 
@@ -82,4 +90,10 @@ footer {
     padding-right: 150px;
     text-align: justify;
     font-size: 1,2em;
+  }
+
+  .pro-scills{
+    display: flex;
+    align-items: center;
+  justify-content: center; 
   }
