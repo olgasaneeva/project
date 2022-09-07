@@ -1,7 +1,7 @@
 html, 
 body {
     margin: 0;
-    padding: 15px;
+    padding: 5px;
     font-size: 100%;
     font-family: "Roboto", sans-serif;
     color: rgb(12, 12, 12);
@@ -35,27 +35,51 @@ footer {
 
 .contacts{
   display: flex;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-
-
-
-
-.border {
+.border{
   border: 3px solid #747576;
-  width:150px;
-  border-radius: 30%!important;
-  justify-content: center;
- }
+  max-width: 100%;
+    height: auto;
+  border-radius: 100px/*!important*/;
+  }
 
+  .foto-1{
+    width: 150px;
+    height:auto;
+  }
+  
  .social-icons {
   display: flex;
   justify-content: center;
   list-style: none;
+  width: 500px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding-left: 20px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  }
 
+  .info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .portret{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 30px;  
+  }
+
+  .resume{
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 150px;
+    text-align: justify;
+    font-size: 1,2em;
+  }
